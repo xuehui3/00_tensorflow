@@ -31,6 +31,7 @@ import tensorflow as tf
 # - 编写两层卷积层+两层神经网络层
 # - 编译  训练  评估
 
+
 class CNNMinst(object):
     # 编写两层卷积层 + 两层神经网络层
     model = keras.models.Sequential([
